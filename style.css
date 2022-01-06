@@ -60,7 +60,9 @@
 }
 
 /* Hero Section Styling */
-.hero {
+.hero,
+.my-mission,
+.develop {
 	padding: 50px 150px;
 }
 .container {
@@ -95,7 +97,8 @@
 	padding-left: 15px;
 	margin-bottom: 30px;
 }
-.hero-heading span {
+.hero-heading span,
+.my-mission span {
 	color: #ffad5a;
 }
 
@@ -110,7 +113,8 @@
 	color: #3e3e3e;
 	margin-bottom: 30px;
 }
-.hero-details a {
+.hero-details a,
+.develop-description a {
 	background: #ff5959;
 	border-radius: 5px;
 	padding: 12px 37.5px;
@@ -131,4 +135,130 @@
 	line-height: 24px;
 	color: #434343;
 	margin-top: 30px;
+}
+
+/* My mission section styling  */
+.my-mission h1 {
+	width: 454px;
+	height: 70px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 70px;
+	text-align: center;
+	color: #13103a;
+}
+.my-mission-heading {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 48px;
+}
+.missions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mission1,
+.mission2,
+.mission3 {
+	width: 360px;
+	height: 376px;
+	border-radius: 26px;
+	padding-top: 25px;
+	padding-left: 32px;
+}
+.mission1 {
+	background: rgba(79, 157, 166, 0.1);
+}
+.mission2 {
+	background: rgba(255, 89, 89, 0.1);
+	margin: 0px 24px;
+}
+.mission3 {
+	background: #fff4d6;
+}
+.mission1 img,
+.mission2 img,
+.mission3 img {
+	width: 141px;
+	height: 141px;
+	margin-bottom: 12px;
+}
+
+.mission1 h1,
+.mission2 h1,
+.mission3 h1 {
+	width: 93px;
+	height: 36px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+	margin-bottom: 16px;
+}
+.mission1 p,
+.mission2 p,
+.mission3 p {
+	width: 315px;
+	height: 101px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #424242;
+}
+
+/* Develop Section Styling  */
+.develop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(images/shape-dotted.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	padding: 80px 0px;
+}
+.develop-image img {
+	width: 400px;
+	height: 400px;
+	margin-right: 72px;
+}
+.develop-description h1 {
+	width: 435px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #333333;
+}
+.develop-description p {
+	width: 654px;
+	height: 120px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #3e3e3e;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.develop-image {
+	position: relative;
+}
+/* .develop-image img {
+	z-index: 10;
+} */
+.develop-image .circle {
+	width: 227px;
+	height: 227px;
+	position: absolute;
+	left: -100px;
+	top: 100px;
+	z-index: -1;
 }
