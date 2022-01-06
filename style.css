@@ -3,20 +3,22 @@
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-}
-
-body {
-	font-family: "Poppins", sans-serif;
+	text-decoration: none;
 }
 
 /* Navigation Section Styling  */
 
 .navigation-menu {
-	background-color: #fb6b58;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #faecdf;
+	padding: 15px 150px;
 }
 .logo h1 {
+	font-family: "Poppins", sans-serif;
 	font-size: 30px;
-	color: whitesmoke;
+	color: #fb6b58;
 }
 
 .menu a {
@@ -24,7 +26,12 @@ body {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 600;
-	color: whitesmoke;
+	color: #fb6b58;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
 }
 .menu a:hover {
 	background-color: white;
@@ -34,16 +41,94 @@ body {
 
 .contact a {
 	padding: 10px 30px;
-	background-color: white;
-	color: #fb6b58;
+	background-color: #fb6b58;
+	color: white;
 	text-decoration: none;
-	font-weight: 700;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
 	transition: all 0.4s ease-in-out;
 }
 
 .contact a:hover {
 	background-color: transparent;
-	border: 2px solid white;
+	border: 3px solid #fb6b58;
 	transition: all 0.4s ease-in-out;
-	color: white;
+	color: #fb6b58;
+}
+
+/* Hero Section Styling */
+.hero {
+	padding: 50px 150px;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hero-details {
+	width: 60%;
+}
+.hero-image {
+	width: 40%;
+}
+.hero-image img {
+	width: 100%;
+}
+
+.hero-heading h1 {
+	width: 503px;
+	height: 160px;
+	font-family: "Yeseva One", cursive;
+	font-weight: 500;
+	font-size: 60px;
+	color: #333333;
+}
+
+.hero-heading {
+	border-left: 7px solid;
+	border-image: linear-gradient(180deg, #ff5959, #ff5959);
+	border-image-slice: 1;
+	height: 124px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+.hero-heading span {
+	color: #ffad5a;
+}
+
+.hero-details p {
+	width: 471px;
+	height: 84px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #3e3e3e;
+	margin-bottom: 30px;
+}
+.hero-details a {
+	background: #ff5959;
+	border-radius: 5px;
+	padding: 12px 37.5px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.hero-para {
+	width: 297px;
+	height: 24px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #434343;
+	margin-top: 30px;
 }
