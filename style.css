@@ -66,7 +66,7 @@
 .Community {
 	padding: 80px 150px;
 }
-.container {
+.container1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -285,4 +285,123 @@
 	left: 300px;
 	top: 280px;
 	z-index: -1;
+}
+
+/* Ask a question section styling  */
+#askQuestion {
+	padding: 80px 150px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container .section_heading {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 74px;
+	color: #000000;
+	margin-bottom: 80px;
+}
+.section_heading {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.column_heading h2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 74px;
+	color: #000000;
+}
+.column_heading p {
+	width: 600px;
+	height: 120px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #3e3e3e;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form-container {
+	min-width: 400px;
+	background: #edf5f6;
+	border-radius: 16px;
+	padding: 40px;
+	box-shadow: 10px 20px 30px rgba(255, 145, 0, 0.164);
+	position: relative;
+}
+.form-container .form_c1 {
+	position: absolute;
+	z-index: -1;
+	top: -100px;
+	left: -100px;
+}
+
+#askQuestion .inner-content {
+	padding-left: 72px;
+}
+form .form-control {
+	width: 90%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	padding: 16px;
+}
+form .form-control:active {
+	border: none;
+}
+form .btn-primary {
+	margin-top: 30px;
+	border: none;
+	background-color: #ff5959;
+	padding: 12px 30px;
+	color: white;
+	border-radius: 5px;
+}
+
+/* Footer section styling  */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0b0d17;
+	padding: 40px 0px;
+	margin-top: 80px;
+}
+footer h1 {
+	font-family: Lobster;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+footer span {
+	color: #ff5959;
+}
+footer p {
+	font-family: "Manrope", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #d9dbe1;
+	margin-top: 24px;
 }
